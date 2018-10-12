@@ -2,13 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Client</title>
+  <title>Notes App</title>
   <base href="/">
-
+  <script src="https://www.gstatic.com/firebasejs/5.5.3/firebase.js"></script>
+         <script>
+           // Initialize Firebase
+           var config = {
+               apiKey: "AIzaSyAqxMkhwetv5i8ARS4vuGud5tFoaC3R1RY",
+               authDomain: "noteapp-34c88.firebaseapp.com",
+               databaseURL: "https://noteapp-34c88.firebaseio.com",
+               projectId: "noteapp-34c88",
+               storageBucket: "noteapp-34c88.appspot.com",
+               messagingSenderId: "273339702586"
+  };
+          firebase.initializeApp(config);
+        </script>
+   <link href="/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+   
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   
 </head>
 <body>
-  <app-root></app-root>
+   <app-root></app-root>
+    
 </body>
 </html>
