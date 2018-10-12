@@ -40,3 +40,4 @@ Thumbs.db
 
 secret.js
 noteapp-34c88-firebase-adminsdk-2kfqf-5512deb127.json
+/src/app/components/app.module.ts

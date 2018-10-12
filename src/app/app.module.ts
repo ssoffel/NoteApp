@@ -34,7 +34,7 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
     
     HttpClientModule,
     AngularFireModule.initializeApp({
-      apiKey: 'AIzaSyAqxMkhwetv5i8ARS4vuGud5tFoaC3R1RY',  
+      apiKey: ' ',  
       authDomain: 'noteapp-34c88.firebaseapp.com',
       databaseURL: 'https://noteapp-34c88.firebaseio.com',
       projectId: 'noteapp-34c88',
