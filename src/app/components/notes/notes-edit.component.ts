@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit  } from '@angular/core';
 import { NotesService} from '../../notes.service';
 import { NgModel } from '@angular/forms';
 import { Router } from '@angular/router';

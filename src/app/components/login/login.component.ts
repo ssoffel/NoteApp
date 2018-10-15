@@ -16,9 +16,10 @@ export class LoginComponent {
   }
 
   async signInWithGoogle() {
+    console.log("in sign in with google")
    this.currentUser = <any> await this.user.login();
-   console.log("currentUser.credenitals", this.currentUser.credential.idToken)
-    if (this.currentUser.credential.idToken){
+   console.log('currentUser.credenitals', this.currentUser.credential.idToken)
+    if (this.currentUser.credential.idToken) {
       this.router.navigate(['/notes']);
     }
   }
